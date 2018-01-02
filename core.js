@@ -12,3 +12,9 @@ function newNode(name, p, o){
   if(p){p.appendChild(a);}
   return a;
 }
+<<<<<<< HEAD
+=======
+=======
+º
+>>>>>>> ecb0087c5097ca4c0e683d48d2fe0f4d4f21e692
+>>>>>>> d04603f71e385eb368f697ef6db7d78e8dcb8dfb
