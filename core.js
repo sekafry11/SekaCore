@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 function newNode(name, p, o){
   var a = document.createElement(name), b, c;
   a.setAttr = function(a, b){
