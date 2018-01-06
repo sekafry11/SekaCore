@@ -13,6 +13,7 @@ function newNode(name, p, o){
 }
 function ajax(n, f){
   var xhttp = new XMLHttpRequest();
+  xhttp.withCredentials = true;
   xhttp.onreadystatechange = function() {
       if (this.readyState == 4 && this.status == 200) {
         f(xhttp.responseText);
