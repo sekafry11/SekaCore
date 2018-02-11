@@ -32,8 +32,5 @@ function newTable(t, a, b, f, o){ // table, ancho, alto, function, object
       f(tr, aa, bb, o); //tr, x, y, object;
     }
   }
-<<<<<<< HEAD
   return t;
-=======
->>>>>>> e6ba151c4e81c43ae739b4a56d64a2e837b95795
 }
