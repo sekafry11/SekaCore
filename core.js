@@ -11,7 +11,11 @@ function newNode(name, p, o){ // Node Name, parent, atributos
   if(p){p.appendChild(a);}
   return a;
 }
+<<<<<<< HEAD
 function ajax(n, f, c){ // url, function
+=======
+function ajax(n, f){ // url, function
+>>>>>>> e6ba151c4e81c43ae739b4a56d64a2e837b95795
   f = f || function(){};
   var xhttp = new XMLHttpRequest();
   xhttp.withCredentials = (c == false)?false:true;
@@ -32,5 +36,8 @@ function newTable(t, a, b, f, o){ // table, ancho, alto, function, object
       f(tr, aa, bb, o); //tr, x, y, object;
     }
   }
+<<<<<<< HEAD
   return t;
+=======
+>>>>>>> e6ba151c4e81c43ae739b4a56d64a2e837b95795
 }
