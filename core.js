@@ -1,3 +1,11 @@
+
+/**
+ * Crea un elemento, lo añade a su padre y le añade los atributos
+ * @param {String} name Elemento a crear
+ * @param {HTMLNode} p Padre del elemento
+ * @param {Object} o Atributos del elemento
+  * @returns {HTMLNode} Elemento creado
+ */
 function newNode(name, p, o){ // Node Name, parent, atributos
   var a = document.createElement(name), b, c;
   a.setAttr = function(a, b){
@@ -34,3 +42,4 @@ function newTable(t, a, b, f, o){ // table, ancho, alto, function, object
   }
   return t;
 }
+document.getId = document.getElementById;
