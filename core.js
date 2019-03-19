@@ -42,4 +42,3 @@ function newTable(t, a, b, f, o){ // table, ancho, alto, function, object
   }
   return t;
 }
-document.getId = document.getElementById;
